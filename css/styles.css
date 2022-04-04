@@ -1,41 +1,43 @@
+:root{
+    --white: #fff;
+    --ligh-blue: rgb(31, 184, 255);
+    --gray: #4a4a4a;
+    --yellow: #ffbb3a;
+    --dark-blue: rgb(0, 4, 255);
+    --bg-gray: #ddd;
+
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
 }
-
-.Show--services{
- 
+html, dody{
+    background-color: var(--bg-gray);
+}
+.navbar-brand{
+    background-image: url('https://seeklogo.com/images/I/IT-logo-8670EB0250-seeklogo.com.png');
+}
+.Show-services{
     margin: 30px auto;
     background-color: aqua;
     height: 300px;
     width: 80%;
 }
-
-
-img{
-    width: 80%;
-    height: 200px;
+.carousel-inner img{
+    height: 500px;
+    object-fit: cover;
 }
-
-
+.carousel-inner h5,p{
+    color: var(--gray);
+}
+.visually-hidden{
+    color: var(--dark-blue);
+}
 .carousel-inner{
-
     margin: 40px auto;
 }
-.carousel-item{
-
-
+.carousel slide{
+    background-color: var(--bg-gray);
 }
-
-.carousel-caption {
-  
-}
-
-
-.carousel-control-prev-icon{
-    color: aqua;
-}
-
-
