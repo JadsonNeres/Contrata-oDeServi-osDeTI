@@ -27,7 +27,7 @@ html, dody{
 }
 .carousel-inner img{
     height: 500px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .carousel-inner h5,p{
     color: var(--gray);
