@@ -47,10 +47,13 @@ html, dody{
     background-color: var(--bg-gray);
 }
 
-
-
-
 .toggle__menu{
+    display: block;
+}
+.toggle__cadastro{
+    position: absolute;
+    top: 56px;
+    left: 25%;
     display: block;
 }
 
