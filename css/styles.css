@@ -15,12 +15,14 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 html, dody{
     background-color: var(--bg-gray);
 }
 .navbar-brand{
     background-image: url('https://seeklogo.com/images/I/IT-logo-8670EB0250-seeklogo.com.png');
+    text-shadow: -1px -1px 1px var(--white);
 }
 .Show-services{
     margin: 30px auto;

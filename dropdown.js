@@ -9,8 +9,6 @@ login.addEventListener('click', toggle2)
 
 function toggle(e){
     subMenu.classList.toggle('toggle__menu')
-    
-    
 }
 function toggle2(e){
     subCadastro.classList.toggle('toggle__cadastro')
